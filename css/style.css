@@ -1106,7 +1106,8 @@ textarea {
     }
 
     .car-slider {
-        height: 100%;
+        width: 630px;
+        height: 545px;
     }
 }
 
@@ -1125,6 +1126,10 @@ textarea {
 
     .result-box_info {
         width: 58%;
+    }
+    .car-slider {
+        width: 490px;
+        height: 425px;
     }
 }
 
