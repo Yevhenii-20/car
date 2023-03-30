@@ -950,9 +950,9 @@ textarea {
 .car-slider {
     min-width: 0;
     position: relative;
-    height: 645px;
+    /*height: 645px;*/
     overflow: hidden;
-
+    height: 100%;
 }
 
 
@@ -1105,10 +1105,10 @@ textarea {
         padding-right: 10px;
     }
 
-    .car-slider {
+   /* .car-slider {
         width: 630px;
         height: 545px;
-    }
+    }*/
 }
 
 @media screen and (max-width:992px) {
@@ -1127,10 +1127,10 @@ textarea {
     .result-box_info {
         width: 58%;
     }
-    .car-slider {
+    /*.car-slider {
         width: 490px;
         height: 425px;
-    }
+    }*/
 }
 
 @media screen and (max-width:768px) {
