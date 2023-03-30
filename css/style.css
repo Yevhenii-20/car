@@ -950,6 +950,8 @@ textarea {
 .car-slider {
     min-width: 0;
     position: relative;
+    height: 100%;
+    overflow: hidden;
 }
 
 .slick-track {
@@ -1253,6 +1255,12 @@ textarea {
 
     .car-order_form {
         margin-top: 25px;
+    }
+
+    .car-slider {
+        width: 300px;
+        height: 257px;
+        overflow: hidden;
     }
 }
 

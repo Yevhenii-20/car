@@ -13,6 +13,8 @@ $( document ).ready(function() {
     $(".filter").on("click",function(){
       $('.settings-box').slideToggle();
     });
+    
+    /* Simulate defer loading slick */
 
     $('.car-big_slider').slick({
       arrows: true,
