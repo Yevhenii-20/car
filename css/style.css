@@ -1258,9 +1258,10 @@ textarea {
     }
 
     .car-slider {
-        width: 300px;
-        height: 257px;
+        width: 485px;
+        height: 413px;
         overflow: hidden;
+        margin: 0 auto;
     }
 }
 
@@ -1345,6 +1346,22 @@ textarea {
     .car-description {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    .car-slider {
+        width: 380px;
+        height: 318px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .car-slider {
+        width: 300px;
+        height: 246px;
+        overflow: hidden;
+        margin: 0 auto;
     }
 }
 
