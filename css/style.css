@@ -950,9 +950,12 @@ textarea {
 .car-slider {
     min-width: 0;
     position: relative;
-    height: 100%;
+    height: 645px;
     overflow: hidden;
+
 }
+
+
 
 .slick-track {
     display: flex;
@@ -1100,6 +1103,10 @@ textarea {
     .content {
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .car-slider {
+        height: 100%;
     }
 }
 
