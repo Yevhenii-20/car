@@ -1598,6 +1598,24 @@ textarea {
     .new-car_flex {
         padding-top: 10px;
     }
+
+    .new-car_flex .slick-dots button {
+        font-size: 0;
+        width: 8px;
+        height: 8px;
+        background: #e0e0e0;
+        border: transparent;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    
+    .new-car_flex .slick-dots .slick-active button {
+        background: var(--mainRed);
+        width: 15px;
+        border-radius: 20px;
+        transition: 0.2s;
+    }
 }
 
 @media screen and (max-width:400px) {
