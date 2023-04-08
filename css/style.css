@@ -710,7 +710,7 @@ textarea {
     justify-content: center;
 }
 
-.pagination div {
+.pagination a {
     border: 1px solid #8f8e8e;
     padding: 15px;
     font-size: 15px;
@@ -723,7 +723,7 @@ textarea {
     transition: 0.3s;
 }
 
-.pagination div:hover {
+.pagination a:hover {
     transition: 0.3s;
     background: var(--mainRed);
     color: #fff;
