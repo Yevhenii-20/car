@@ -498,12 +498,15 @@ textarea {
     justify-content: space-between;
 }
 
+.header_submenu_box {
+    display: none;
+    position: absolute;
+    padding-top: 22px;
+}
+
 .header_submenu {
     background: #fff;
-    position: absolute;
-    top: 38px;
     border-top: 4px solid var(--mainRed);
-    display: none;
 }
 
 .header_submenu a {
@@ -519,7 +522,7 @@ textarea {
     position: relative;
 }
 
-.header-link_block:hover .header_submenu{
+.header-link_block:hover .header_submenu_box {
     display: block;
 }
 
@@ -1276,8 +1279,80 @@ textarea {
 
 /*-- END HOMEPAGE --*/
 
+/* CAR SEARCH HOME PAGE */
+
+.car-logo_list {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car-logo_title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: #363636;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.car-logo_box {
+    padding: 7px 14px;
+    padding-right: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 19.1%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.car-logo_box:hover {
+    background: #fcfbfb;
+}
+
+.car-logo_box::before {
+    content: ' ';
+    position: absolute;
+    top: 13.2px;
+    right: 10px;
+    background: url(../img/arr-right.svg) center center;
+    background-repeat: no-repeat;
+    width: 9px;
+    height: 12px;
+    background-size: contain;
+}
+
+.car-logo_number {
+    font-size: 14px;
+}
+
+.car-logo_name {
+    padding-left: 5px;
+}
+
+.car-logo_flex {
+    display: flex;
+    align-items: center;
+}
+
+.car-logo_img {
+    width: 30px;
+}
+
+
+/* END CAR SEARCH HOME */
+
 @media screen and (max-width:1400px) {
-    .header-menu .header-link_block:nth-child(3) .header_submenu, .header-menu .header-link_block:nth-child(4) .header_submenu  {
+    .header-menu .header-link_block:nth-child(3) .header_submenu_box, .header-menu .header-link_block:nth-child(4) .header_submenu_box  {
         right: 0;
     }
 }
@@ -1330,6 +1405,14 @@ textarea {
     .new-car_img {
         width: 100%;
     }
+
+    /* CAR SEARCH HOME PAGE */
+
+    .car-logo_box {
+        width: 23%;
+    }
+
+    /* END CAR SEARCH HOME PAGE */
 }
 
 @media screen and (max-width:768px) {
@@ -1406,7 +1489,7 @@ textarea {
         padding: 10px;
     }
 
-    .header_submenu {
+    .header_submenu_box {
         position: relative;
         top: 0;
         padding: 10px;
@@ -1416,13 +1499,10 @@ textarea {
         border-top: 1px solid #e0e0e0;
     }
 
-    .header-link_block:hover .header_submenu {
-        display: none
-    }
-
-    .header_submenu.show {
+    .header_submenu_box.show {
         display: block!important;
     }
+
 
     .filter-block {
         display: flex;
@@ -1499,6 +1579,18 @@ textarea {
         padding-bottom: 20px;
     }
 
+    /* CAR SEARCH HOME PAGE */
+
+    .car-logo_box {
+        width: 47%;
+        margin: 5px;
+    }
+
+    .car-logo_list {
+        justify-content: space-between;
+    }
+
+    /* END CAR SEARCH HOME PAGE */
 }
 
 @media screen and (max-width:500px) {
@@ -1625,6 +1717,19 @@ textarea {
         overflow: hidden;
         margin: 0 auto;
     }
+
+    /* CAR SEARCH HOME PAGE */
+
+    .car-logo_box {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .car-logo_list {
+        justify-content: space-between;
+    }
+
+    /* END CAR SEARCH HOME PAGE */
 }
 
 

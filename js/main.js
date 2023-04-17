@@ -6,8 +6,8 @@ $( document ).ready(function() {
     });
 
     $(".header-link_block").on("click",function(){
-      $('.header_submenu').removeClass('show');
-      $(this).children('.header_submenu').toggleClass('show');
+      $('.header_submenu_box').removeClass('show');
+      $(this).children('.header_submenu_box').toggleClass('show');
     });
 
     $(".filter").on("click",function(){
