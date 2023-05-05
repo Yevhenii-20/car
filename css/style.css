@@ -1591,6 +1591,15 @@ textarea {
     }
 
     /* END CAR SEARCH HOME PAGE */
+
+
+
+    /* FIX CAR SLIDER */
+
+    .car-big_slider .car-slider_item {
+        height: 325px;
+    }
+    
 }
 
 @media screen and (max-width:500px) {
@@ -1707,6 +1716,12 @@ textarea {
         width: 15px;
         border-radius: 20px;
         transition: 0.2s;
+    }
+
+    /* FIX CAR SLIDER */
+
+    .car-big_slider .car-slider_item {
+        height: 256px;
     }
 }
 
